@@ -10,15 +10,17 @@ main{
 header{
     height: 80px;
     margin-bottom: 20px;
-    border-bottom: 10px solid rgba(0, 0, 0,0.5);
-    /* width: 90%;
-    margin-left: auto;
-    margin-right: auto;*/
     margin-top: 25px;
     margin-left: 8%;
     margin-right: 8%;
 }
-
+.line{
+    height: 13px;
+    border: solid 0px white;
+    background-image: linear-gradient(45deg, #000000 16.67%, #fff 16.67%, #fff 50%, #000000 50%, #000000 66.67%, #fff 66.67%, #fff 100%);
+    background-size: 4.24px 4.24px;
+    opacity: 0.3;
+}
 nav{
     display:flex;
     width: 100%;
@@ -28,7 +30,6 @@ nav div{
 width: 73%;
 }
 #wifi{
-    /* padding-left: 2%; */
     margin-left: 2%;
 }
 .socail{
@@ -38,7 +39,6 @@ height: 20px;
 }
 #images{
     text-align: right;
-/* height: 80px; */
 margin-top: 10px;
 }
 nav h1{
@@ -117,7 +117,6 @@ main section h4{
     width: 100%;
     position:absolute;
     z-index: 1;
-    /* margin-bottom: 30px; */
 }
 #list{
     display: flex;
@@ -148,14 +147,10 @@ main section h4{
 footer{
     margin-left: 8%;
     margin-right: 8%;
-    /* border-top: 10; */
     position: relative;
     z-index: 2;
     margin-top: 200px;
     margin-bottom: 80px;
-    /* height: 80px;
-    margin-bottom: 20px; */
-    border-top: 10px solid rgba(0, 0, 0,0.5);
 }
 .vanessa{
     margin-top: 30px;
@@ -172,13 +167,11 @@ font-weight: 500;
 }
 .vanessa div p{
     font-size: 150%;
-    /* opacity: 0.6; */
     }
     .vanessa button{
         width: 250px;
         height: 60px;
         background-color: #BB6F52;
-        /* padding: 0 50px; */
         border: none;
         color: white;
         font-size: 115%;
